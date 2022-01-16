@@ -6,5 +6,5 @@ class App(tk.Tk):
         super().__init__()
 
         self.title("Mentor match")
-        self.geometry("300x70")
-        self.resizable(False, False)
+        self.geometry("300x140")
+        self.resizable(True, True)
